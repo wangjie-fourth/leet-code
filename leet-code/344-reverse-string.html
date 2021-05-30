@@ -1,0 +1,539 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>344-反转字符串 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="509-fibonacci-number.html" />
+    
+    
+    <link rel="prev" href="278-first-bad-version.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">数据结构</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../data-structure/03-linked-list.html">
+            
+                <a href="../data-structure/03-linked-list.html">
+            
+                    
+                    链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">相关技巧</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../skill/01-binary-search.html">
+            
+                <a href="../skill/01-binary-search.html">
+            
+                    
+                    01-二分查找
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../skill/02-sort.html">
+            
+                <a href="../skill/02-sort.html">
+            
+                    
+                    02-排序算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">LeetCode</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="20-valid-parentheses.html">
+            
+                <a href="20-valid-parentheses.html">
+            
+                    
+                    20-验证括号
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="33-search-in-rotated-sorted-array.html">
+            
+                <a href="33-search-in-rotated-sorted-array.html">
+            
+                    
+                    33-搜索旋转排序数组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="35-search-insert-position.html">
+            
+                <a href="35-search-insert-position.html">
+            
+                    
+                    35-搜索插入位置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="46-permutations.html">
+            
+                <a href="46-permutations.html">
+            
+                    
+                    46-全排列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" data-path="69-sqrtx.html">
+            
+                <a href="69-sqrtx.html">
+            
+                    
+                    69-x的平方根
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6" data-path="74-search-a-2d-matrix.html">
+            
+                <a href="74-search-a-2d-matrix.html">
+            
+                    
+                    74-搜索二维矩阵
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.7" data-path="78-subsets.html">
+            
+                <a href="78-subsets.html">
+            
+                    
+                    78-无重复元素的子集
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.8" data-path="88-merge-sorted-array.html">
+            
+                <a href="88-merge-sorted-array.html">
+            
+                    
+                    88-合并有序数组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.9" data-path="90-subsets-ii.html">
+            
+                <a href="90-subsets-ii.html">
+            
+                    
+                    90-含重复元素的子集
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.10" data-path="155-min-stack.html">
+            
+                <a href="155-min-stack.html">
+            
+                    
+                    155-最小栈
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.11" data-path="232-implement-queue-using-stacks.html">
+            
+                <a href="232-implement-queue-using-stacks.html">
+            
+                    
+                    232-用栈实现一个队列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.12" data-path="240-search-a-2d-matrix-ii.html">
+            
+                <a href="240-search-a-2d-matrix-ii.html">
+            
+                    
+                    240-搜索二维矩阵II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.13" data-path="278-first-bad-version.html">
+            
+                <a href="278-first-bad-version.html">
+            
+                    
+                    278-第一个错误的版本
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="4.14" data-path="344-reverse-string.html">
+            
+                <a href="344-reverse-string.html">
+            
+                    
+                    344-反转字符串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.15" data-path="509-fibonacci-number.html">
+            
+                <a href="509-fibonacci-number.html">
+            
+                    
+                    509-斐波那契数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.16" data-path="905-sort-array-by-parity.html">
+            
+                <a href="905-sort-array-by-parity.html">
+            
+                    
+                    905-按奇偶数排序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.17" data-path="08-06-hanota-lcci.html">
+            
+                <a href="08-06-hanota-lcci.html">
+            
+                    
+                    08.06-汉诺塔问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">相关资料</li>
+        
+        
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >344-反转字符串</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x9898;&#x76EE;">&#x9898;&#x76EE;</h1>
+<p>&#x7F16;&#x5199;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#xFF0C;&#x5176;&#x4F5C;&#x7528;&#x662F;&#x5C06;&#x8F93;&#x5165;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#x53CD;&#x8F6C;&#x8FC7;&#x6765;&#x3002;&#x8F93;&#x5165;&#x5B57;&#x7B26;&#x4E32;&#x4EE5;&#x5B57;&#x7B26;&#x6570;&#x7EC4;<code>char[]</code>&#x7684;&#x5F62;&#x5F0F;&#x7ED9;&#x51FA;&#x3002; 
+&#x4E0D;&#x8981;&#x7ED9;&#x53E6;&#x5916;&#x7684;&#x6570;&#x7EC4;&#x5206;&#x914D;&#x989D;&#x5916;&#x7684;&#x7A7A;&#x95F4;&#xFF0C;&#x4F60;&#x5FC5;&#x987B;&#x539F;&#x5730;&#x4FEE;&#x6539;&#x8F93;&#x5165;&#x6570;&#x7EC4;&#x3001;&#x4F7F;&#x7528;<code>O(1)</code>&#x7684;&#x989D;&#x5916;&#x7A7A;&#x95F4;&#x89E3;&#x51B3;&#x8FD9;&#x4E00;&#x95EE;&#x9898;&#x3002; 
+&#x4F60;&#x53EF;&#x4EE5;&#x5047;&#x8BBE;&#x6570;&#x7EC4;&#x4E2D;&#x7684;&#x6240;&#x6709;&#x5B57;&#x7B26;&#x90FD;&#x662F;<code>ASCII</code>&#x7801;&#x8868;&#x4E2D;&#x7684;&#x53EF;&#x6253;&#x5370;&#x5B57;&#x7B26;&#x3002;</p>
+<h1 id="&#x89E3;&#x6CD5;">&#x89E3;&#x6CD5;</h1>
+<pre><code class="lang-java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Solution</span> </span>{
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">reverseString</span><span class="hljs-params">(<span class="hljs-keyword">char</span>[] s)</span> </span>{
+        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; s.length / <span class="hljs-number">2</span>; i++) {
+            <span class="hljs-keyword">char</span> temp = s[i];
+            s[i] = s[s.length-i-<span class="hljs-number">1</span>];
+            s[s.length-i-<span class="hljs-number">1</span>] = temp;
+        }
+    }
+}
+</code></pre>
+<p>&#x8FD9;&#x79CD;&#x89E3;&#x6CD5;&#x4F3C;&#x4E4E;&#x4E5F;&#x662F;<strong>&#x53CC;&#x6307;&#x9488;</strong>&#x7684;&#x5E94;&#x7528;</p>
+<hr>
+<p><a href="https://leetcode-cn.com/problems/reverse-string/" target="_blank">https://leetcode-cn.com/problems/reverse-string/</a></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="278-first-bad-version.html" class="navigation navigation-prev " aria-label="Previous page: 278-第一个错误的版本">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="509-fibonacci-number.html" class="navigation navigation-next " aria-label="Next page: 509-斐波那契数">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"344-反转字符串","level":"4.14","depth":1,"next":{"title":"509-斐波那契数","level":"4.15","depth":1,"path":"leet-code/509-fibonacci-number.md","ref":"leet-code/509-fibonacci-number.md","articles":[]},"previous":{"title":"278-第一个错误的版本","level":"4.13","depth":1,"path":"leet-code/278-first-bad-version.md","ref":"leet-code/278-first-bad-version.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"leet-code/344-reverse-string.md","mtime":"2021-02-01T13:44:43.102Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-05-30T14:32:59.940Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
